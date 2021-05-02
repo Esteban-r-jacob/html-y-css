@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*.......................*/
+main {
+    font-family: 'DotGothic16', sans-serif;
+}
+/*.....................*/
+
+header {
+    margin: 0;
+    padding: 0;
+    background:darkorange;
+  }
+
+header h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*.....................*/
+
+nav {
+    margin: 0;
+    padding: 0;
+    background:black;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: x-large;
+}
+
+nav div img {
+    justify-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.data{
+color: blanchedalmond;
+justify-items: center;
+display: grid;
+padding: 50px;
+}
+
+/*............................*/
+
+h2 {
+    padding: 0 10;
+    color:black; 
+    text-decoration: underline;
+    font-size: 25px;
+    background-color: aquamarine;
+    
+}
+ 
+h3 {
+    color: grey;
+    font-size: 25px;
+    padding: 10px;
+    
+}
+
+
+section {
+    background-color: black;
+
+}
+
+article {
+    padding: 10px 50px;
+    color: grey;  
+    font-size: x-large;
+}
+
+/*.....................*/
+
+
+ #contacto {
+     text-align: center;
+     
+}
+section .redes {
+  background-color: aquamarine;
+  text-transform: uppercase;
+
+}
+
+section ol li {
+    height: 30px;
+
+}
+
+
+/*...................*/
+
+footer {
+    background: darkorange;
+    text-align: center;
